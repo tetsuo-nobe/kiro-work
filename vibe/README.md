@@ -34,7 +34,7 @@ Kiro の Vibe セッション（会話型コーディング）を使って、AWS
 チャット欄に以下を入力します:
 
 ```
-.kiro/steering/messages-in-japanese.md というファイルを作成して、以下の内容を書いてください:
+グローバルのステアリングとして messages-in-japanese.md というファイルを作成して、以下の内容を書いてください:
 
 ---
 inclusion: always
