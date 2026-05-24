@@ -70,7 +70,7 @@ inclusion: always
 - エラーハンドリング: ユーザーに表示されるメッセージは日本語で記述する
 ```
 
-Kiro がファイルを作成したら、エクスプローラーで `.kiro/steering/messages-in-japanese.md` が存在することを確認します。
+Kiro の左側で Kiro のアイコンをクリックして、「AGENT STEERING & SKILLS」に `messages-in-japanese.md` が存在することを確認します。
 
 > 💡 **ポイント**: これ以降、Kiro は日本語でコメントを書き、日本語で応答してくれるようになります。ステアリングはプロジェクト単位で設定でき、チーム全員で共有できます。
 
