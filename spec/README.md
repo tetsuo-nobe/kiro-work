@@ -88,7 +88,7 @@ Kiro の左側で Kiro のアイコンをクリックして、「AGENT STEERING 
 
 ### ステップ 2: Spec セッションの開始
 
-1.「Let's build」で **Spec** を選択します
+1. 「Let's build」で **Spec** を選択します
 1. プロンプト入力欄に以下を入力します:
 
 ```
