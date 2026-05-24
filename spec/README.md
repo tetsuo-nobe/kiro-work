@@ -45,7 +45,7 @@ Kiro の Spec セッション（構造化ワークフロー）を使って、ア
 チャット欄に以下を入力します:
 
 ```
-.kiro/steering/messages-in-japanese.md というファイルを作成して、以下の内容を書いてください:
+グローバルのステアリングとして messages-in-japanese.md というファイルを作成して、以下の内容を書いてください:
 
 ---
 inclusion: always
@@ -81,7 +81,7 @@ inclusion: always
 - エラーハンドリング: ユーザーに表示されるメッセージは日本語で記述する
 ```
 
-Kiro の左側で Kiro のアイコンをクリックして、「AGENT STEERING & SKILLS」に `messages-in-japanese.md` が存在することを確認します。
+Kiro の左側で Kiro のアイコンをクリックして、「AGENT STEERING & SKILLS」の「Global」の下に `messages-in-japanese.md` が存在することを確認します。
 
 > 💡 **ポイント**: これ以降、Kiro は日本語でコメントを書き、日本語で応答してくれるようになります。ステアリングはプロジェクト単位で設定でき、チーム全員で共有できます。
 ---
