@@ -20,10 +20,12 @@ Kiro の Vibe セッション（会話型コーディング）を使って、AWS
 
 1. 任意の場所に空のフォルダを作成します（例: `aws-quiz-app`）
 1. デスクトップの Kiro のアイコンをクリックして Kiro を起動します
+1. サインインを行います。
 1. サインイン方法として AWS Builder ID を選択してサインインを進めます
 1. サインイン処理の最後で「Allow access」をクリックしてブラウザを閉じます
 1. Kiro でセットアップ処理を続けます
-1. 「Open a project」で作成したフォルダを開きます 
+1. 「Open a project」で作成したフォルダを開きます
+1. 「Do you trust the authors of the files in this folder?」のダイアログでチェックボックスをチェックして「Yes, ...」をクリックします
 
 ---
 
