@@ -14,6 +14,7 @@
 **ラボ**: [Lab - Structured Approach to AI coding with Spec-Driven Development on Kiro](https://skillbuilder.aws/learn/J74A9BP8SM/lab--structured-approach-to-ai-coding-with-specdriven-development-on-kiro/VDK8N2DMKC)
 
 * 受講者の AWS Builder ID で Kiro にサインインして、Free Plan のクレジットを使用いたします。
+    - このハンズオンの Vibe モードで基本機能だけを実装する場合は、約 1.5 ～ 2.5 ほどのクレジットを消費します。 
 
 > ⚠️ **注意**: Kiro の Free Plan のクレジットには制限があります。クレジットについてはインストラクターから説明します。
 
