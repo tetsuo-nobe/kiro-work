@@ -8,29 +8,59 @@
 
 ## 利用する環境
 
-* 本ハンズオンでは、AWS Skill Builder のラボ環境を使用します。
-    - (このラボの使用には、Skill Builder のサブスクリプションが必要です。）
+* インストラクターよりガイドします。下記のいずれかのケースになります。
+    - ケース 1. インストラクターが用意する AWS アカウントを使用する
+        - [こちら](https://d-9567586b55.awsapps.com/start) からアクセス
+        - サインインに必要な情報はインストラクターからガイドします。
+    - ケース 2. AWS Skill Builder のラボ環境を使用する
+        - (このラボの使用には、Skill Builder のサブスクリプションが必要です。）
+        - **ラボ**: [Lab - Structured Approach to AI coding with Spec-Driven Development on Kiro](https://skillbuilder.aws/learn/J74A9BP8SM/lab--structured-approach-to-ai-coding-with-specdriven-development-on-kiro/VDK8N2DMKC)
 
-**ラボ**: [Lab - Structured Approach to AI coding with Spec-Driven Development on Kiro](https://skillbuilder.aws/learn/J74A9BP8SM/lab--structured-approach-to-ai-coding-with-specdriven-development-on-kiro/VDK8N2DMKC)
-
-* 受講者の AWS Builder ID で Kiro にサインインして、Free Plan のクレジットを使用いたします。
+* 上記いずれのケースでも受講者の AWS Builder ID で Kiro にサインインして、Free Plan のクレジットを使用いたします。
     - このハンズオンの Vibe モードで基本機能だけを実装する場合は、約 1.5 ～ 2.5 ほどのクレジットを消費します。 
 
 > ⚠️ **注意**: Kiro の Free Plan のクレジットには制限があります。クレジットについてはインストラクターから説明します。
 
-### ラボ環境の特徴
+### ハンズオン環境の特徴
 
 - Kiro がプリインストール済み
 - Node.js がインストール済み
 - AWS Builder ID でのサインインが可能
 - ブラウザベースで動作するため、ローカル環境のセットアップ不要
 
-### ラボの起動手順
+### ハンズオンの起動手順
 
-1. 上記リンクから AWS Skill Builder にアクセスします
-2. ラボを開始（Start Lab）します
-3. ラボ環境内の手順に従い Kiro を起動します
-4. Kiro が起動したら、本ハンズオンの手順に進んでください
+#### ケース 1. の場合
+1. 上記リンクから AWS アカウントへサインインします。
+1. マネジメントコンソールで東京リージョン (ap-northeast-1) を選択します。
+1. ブラウザで新しいタブを開き、下記の URL にアクセスします。
+    - `https://aws-samples.github.io/sample-one-click-generative-ai-solutions/solutions/kiro-ide/`
+1. Kiro IDE Remote のページが表示されることを確認します。
+1. ページを少し下にスクロールして、「**AWS へのデプロイ**」で「**東京**」が選択されていることを確認し、「**Deploy**」をクリックします。
+1. 「**パラメータ**」セクションの「**UserEmail**」に下記を入力します。
+    - `tetsuo.nobe.10031127+(自分のID)@gmail.com`
+    - (自分のID)の箇所は ID 値に置き換えてください。例: tetsuo.nobe.10031127+01@gmail.com
+1. 「**機能**」セクションのチェックボックスをチェックします。
+1. ページ右下の「**スタックの作成**」をクリックします。
+1. 「**スタックの情報**」タブをクリックします。
+1. 「**ステータス**」が「**COMPLETE**」になるまで待ちます。
+    - 約13分ほどかかります。
+1. 「**出力**」タブをクリックします。
+1. 下記の値をメモします。
+    - **KiroIDEURL**: Kiro IDE へのアクセス URL
+    - **Username**: ログイン用のユーザー名
+    - **Password**: ログイン用のパスワード
+1. ブラウザで新しいタブを開き、**KiroIDEURL** にアクセスします。
+1. メモしておいた **Username** と **Password** でサインインします。
+1. ブラウザに Ubuntu デスクトップが表示されることを確認します。
+    - 注意: Ubuntu デスクトップでは、全角と半角の入力切り替えは、**Ctrl + Space** であることを覚えておいてください。 
+1. この後、Vibe コーディングの手順に進みます。
+
+#### ケース 2. の場合
+1. 上記リンクから AWS Skill Builder にアクセスします。
+1. Skill Builder のラボを開始（Start Lab）します。
+1. ラボ環境内の手順に従い環境にアクセスします。
+1. この後、Vibe コーディングの手順に進みます。
 
 ---
 
@@ -57,7 +87,7 @@
 
 ### オプション: Spec モード（30〜40分）
 
-時間に余裕がある場合は、Spec セッション（構造化ワークフロー）も体験してみましょう。Vibe モードとの違いを理解できます。
+Kiro クレジットや時間に余裕がある場合は、Spec セッション（構造化ワークフロー）も体験してみましょう。Vibe モードとの違いを理解できます。
 
 - 要件定義 → 設計 → タスク分解 → 実装の段階的プロセス
 - アメリカの都市の天気情報を表示する Web アプリを構築
