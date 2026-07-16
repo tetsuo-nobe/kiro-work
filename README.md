@@ -9,12 +9,13 @@
 ## 利用する環境
 
 * インストラクターよりガイドします。下記のいずれかのケースになります。
-    - ケース 1. インストラクターが用意する AWS アカウントを使用する
-        - [こちら](https://d-9567586b55.awsapps.com/start) からアクセス
-        - サインインに必要な情報はインストラクターからガイドします。
+    - ケース 1. トレーニングコースのラボ環境を使用する
     - ケース 2. AWS Skill Builder のラボ環境を使用する
         - (このラボの使用には、Skill Builder のサブスクリプションが必要です。）
         - **ラボ**: [Lab - Structured Approach to AI coding with Spec-Driven Development on Kiro](https://skillbuilder.aws/learn/J74A9BP8SM/lab--structured-approach-to-ai-coding-with-specdriven-development-on-kiro/VDK8N2DMKC)
+    - ケース 3. インストラクターが用意する AWS アカウントを使用する
+        - [こちら](https://d-9567586b55.awsapps.com/start) からアクセス
+        - サインインに必要な情報はインストラクターからガイドします。
 
 * 上記いずれのケースでも受講者の AWS Builder ID で Kiro にサインインして、Free Plan のクレジットを使用いたします。
     - このハンズオンの Vibe モードで基本機能だけを実装する場合は、約 1.5 ～ 2.5 ほどのクレジットを消費します。 
@@ -31,6 +32,16 @@
 ### ハンズオンの起動手順
 
 #### ケース 1. の場合
+1. myClass からコースとラボを選択して、ラボを起動します。
+1. ラボのガイドにもとづき、Kiro がインストールされたインスタンスへアクセスします。   
+
+#### ケース 2. の場合
+1. 上記リンクから AWS Skill Builder にアクセスします。
+1. Skill Builder のラボを開始（Start Lab）します。
+1. ラボ環境内の手順に従い環境にアクセスします。
+1. この後、Vibe コーディングの手順に進みます。
+
+#### ケース 3. の場合
 1. 上記リンクから AWS アカウントへサインインします。
 1. マネジメントコンソールで東京リージョン (ap-northeast-1) を選択します。
 1. ブラウザで新しいタブを開き、下記の URL にアクセスします。
