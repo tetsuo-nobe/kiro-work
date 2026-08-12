@@ -57,7 +57,7 @@ AWSサービスに関する4択クイズアプリを作ってください。
 ### ステップ 2: 動作確認
 
 1. Kiro の左側のアイコンで、一番上にある「エクスプローラー」のアイコンをクリックします。
-1. エクスプローラーで `index.html` を右クリック →「**Open Containing Folder**」または「**Reveal in File Explorer**」でフォルダを開きます
+1. エクスプローラーで `index.html` を右クリック →「**Reveal in File Explorer**」または「**Open Containing Folder**」でフォルダを開きます
 2. `index.html` をダブルクリックしてブラウザを開きます
 3. クイズを実際にプレイしてみましょう！
 
