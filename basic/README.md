@@ -367,6 +367,7 @@ def calculate_total(price: int, tax_rate: float) -> float:
         ValueError: price が負の値の場合
     """
 ```
+```
 
 ## ルール
 
