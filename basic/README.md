@@ -28,7 +28,7 @@ Kiro IDE の基本的な機能を一通り体験するハンズオンです。�
 1. サインイン方法として **Builder ID** を選択してサインインを進めます
 1. サインイン処理の最後で「**アクセスを許可 (Allow access)**」をクリックします。
 1. Kiro に戻りセットアップ処理を続けます。
-1. 「**Set up shell**」が表示された場合は「**Skip**」をクリックします。
+1. 「**Set up shell**」が表示された場合は「**Done**」をクリックします。
 1. 「**Do you trust the authors of the files in this folder?**」のダイアログでチェックボックスをチェックして「**Yes, ...**」をクリックします
 1. Kiro のメニューで、「**File**」-「**Open Folder...**」で作成したフォルダを選択して開きます
 
