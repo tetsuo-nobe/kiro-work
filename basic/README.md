@@ -329,7 +329,7 @@ hello.py にコメントを1行追加してください。内容は「# フッ�
 
 1. チャット欄に以下を入力して送信します:
 
-```
+````
 以下の内容でスキルを作成してください。
 
 フォルダとファイル: .kiro/skills/python-docstring/SKILL.md
@@ -367,7 +367,7 @@ def calculate_total(price: int, tax_rate: float) -> float:
         ValueError: price が負の値の場合
     """
 ```
-```
+
 
 ## ルール
 
@@ -375,7 +375,7 @@ def calculate_total(price: int, tax_rate: float) -> float:
 - 既に docstring がある関数は上書きしない
 - 型ヒントがある場合はそれを参考にする
 - Args、Returns、Raises の各セクションは該当する場合のみ記載する
-```
+````
 
 2. Kiro がスキルフォルダとファイルを作成するのを確認します
 3. Kiro の左側で Kiro のアイコンをクリックし、「**AGENT STEERING & SKILLS**」セクションで `python-docstring` スキルが表示されることを確認します
