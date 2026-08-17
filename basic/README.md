@@ -228,7 +228,7 @@ print("こんにちは、" + name + "さん！ 今日は" + 2026 + "年です。
 #### 3-2. ターミナルでエラーを発生させる
 
 1. Kiro のターミナルを開きます
-    - 「**Terminal**」- 「**New Terminal**」または 「**View**」- 「**Terminal**」
+    - 「**View**」-「**Terminal**」または「**Terminal**」-「**New Terminal**」 
 2. 以下のコマンドを実行します:
 
 ```
