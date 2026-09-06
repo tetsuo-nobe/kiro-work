@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToDo リスト</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>ToDo リスト</h1>
+
+    <!-- 入力エリア -->
+    <form id="todo-form" class="todo-form">
+      <input
+        type="text"
+        id="todo-input"
+        class="todo-input"
+        placeholder="やることを入力..."
+        autocomplete="off"
+      />
+      <button type="submit" class="add-btn">追加</button>
+    </form>
+
+    <!-- 残タスク数カウンター -->
+    <p class="counter">
+      残り <span id="remaining-count">0</span> 件
+    </p>
+
+    <!-- タスク一覧 -->
+    <ul id="todo-list" class="todo-list"></ul>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

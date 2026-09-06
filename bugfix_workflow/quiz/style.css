@@ -1,0 +1,118 @@
+/* 全体のリセットと基本レイアウト */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+.quiz {
+  width: 100%;
+  max-width: 520px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.progress {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.progress span {
+  font-weight: bold;
+  color: #555;
+}
+
+.question {
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* 選択肢 */
+.choices {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.choice-btn {
+  width: 100%;
+  text-align: left;
+  padding: 14px 16px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background: #fafafa;
+  font-size: 16px;
+  cursor: pointer;
+  transition: border-color 0.1s, background 0.1s;
+}
+
+.choice-btn:hover {
+  border-color: #4a90d9;
+  background: #f0f6fd;
+}
+
+/* 結果画面 */
+.hidden {
+  display: none;
+}
+
+#result-view h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.score-line {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.score-line span {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.rate-line {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.retry-btn {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #4a90d9;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.retry-btn:hover {
+  background: #3a7bc0;
+}

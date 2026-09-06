@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>電卓</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="calculator">
+    <!-- ディスプレイ -->
+    <div class="display" id="display">0</div>
+
+    <!-- ボタングリッド -->
+    <div class="buttons">
+      <button class="btn btn-clear" data-action="clear">C</button>
+      <button class="btn btn-op" data-op="/">÷</button>
+      <button class="btn btn-op" data-op="*">×</button>
+      <button class="btn btn-op" data-op="-">−</button>
+
+      <button class="btn btn-num" data-num="7">7</button>
+      <button class="btn btn-num" data-num="8">8</button>
+      <button class="btn btn-num" data-num="9">9</button>
+      <button class="btn btn-op btn-op-plus" data-op="+">＋</button>
+
+      <button class="btn btn-num" data-num="4">4</button>
+      <button class="btn btn-num" data-num="5">5</button>
+      <button class="btn btn-num" data-num="6">6</button>
+      <button class="btn btn-equal" data-action="equals">＝</button>
+
+      <button class="btn btn-num" data-num="1">1</button>
+      <button class="btn btn-num" data-num="2">2</button>
+      <button class="btn btn-num" data-num="3">3</button>
+
+      <button class="btn btn-num btn-zero" data-num="0">0</button>
+      <button class="btn btn-num" data-num=".">.</button>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>クイズ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="quiz">
+    <h1>ミニクイズ</h1>
+
+    <!-- クイズ画面 -->
+    <section id="quiz-view">
+      <p class="progress">
+        第 <span id="current-number">1</span> 問 / 全 <span id="total-number">0</span> 問
+      </p>
+
+      <p class="question" id="question-text">問題文</p>
+
+      <ul class="choices" id="choices"></ul>
+    </section>
+
+    <!-- 結果画面 -->
+    <section id="result-view" class="hidden">
+      <h2>結果</h2>
+      <p class="score-line">
+        <span id="score">0</span> / <span id="total-result">0</span> 問 正解
+      </p>
+      <p class="rate-line">
+        正答率 <span id="rate">0</span>%
+      </p>
+      <button id="retry-btn" class="retry-btn">もう一度</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
