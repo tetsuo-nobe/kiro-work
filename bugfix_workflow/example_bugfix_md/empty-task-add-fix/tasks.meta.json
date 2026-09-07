@@ -1,0 +1,128 @@
+{
+  "pbtResults": {
+    "1. バグ条件の探索的再現テストを書く（修正前）": {
+      "status": "passed",
+      "failingExample": "fast-check Counterexample: [\"\"]（seed=-1664069249, path=\"0\", shrunk 0 times）。空白のみ入力 \"\" で #todo-list の項目数が 0→1 に増加（AssertionError: 1 !== 0）。同様に \"\" / \"   \" / \"\\t　\" のいずれでも件数が 0→1 に増え、input-error クラスも付与されない。保存値観測: input.value=\"  買い物  \" を submit すると、保存/描画される text が trim されず生の \"  買い物  \" のまま（'  買い物  ' !== '買い物'）。これらの失敗はすべて未修正コードでバグが存在することの証明であり、探索テストとして正しく機能している。",
+      "lastRunTimestamp": 1788690563578
+    },
+    "3.2 バグ条件の探索的再現テストがパスすることを確認する": {
+      "status": "passed",
+      "lastRunTimestamp": 1788691198051
+    },
+    "3.3 プリザベーションテストが引き続きパスすることを確認する": {
+      "status": "passed",
+      "lastRunTimestamp": 1788691268728
+    }
+  },
+  "executionHistory": {
+    "1. バグ条件の探索的再現テストを書く（修正前）": [
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788690330760
+      },
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788690341779
+      },
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788690592509
+      }
+    ],
+    "2. プリザベーションのプロパティテストを書く（修正前）": [
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788690330943
+      },
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788690596921
+      },
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788691074372
+      }
+    ],
+    "3.1 submit ハンドラで空入力抑制・trim 済み保存・視覚的フィードバックを実装する": [
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788690331853
+      },
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788691078932
+      },
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788691157654
+      }
+    ],
+    "3.2 バグ条件の探索的再現テストがパスすることを確認する": [
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788690332011
+      },
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788691161810
+      },
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788691212965
+      }
+    ],
+    "3.3 プリザベーションテストが引き続きパスすることを確認する": [
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788690332151
+      },
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788691216923
+      },
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788691285209
+      }
+    ],
+    "4. チェックポイント - すべてのテストがパスすることを確認する": [
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788690332276
+      },
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788691289478
+      },
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788691483829
+      }
+    ],
+    "3. バグ #1（空欄でもタスクが追加できてしまう）の修正": [
+      {
+        "executionId": "c248806e-2662-48e6-b976-a943f91432a3",
+        "chatSessionId": "sess_edb7e85a-62a4-4466-8e4e-db256e93b3d5",
+        "timestamp": 1788691285395
+      }
+    ]
+  }
+}
