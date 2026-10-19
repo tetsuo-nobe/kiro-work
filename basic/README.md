@@ -266,7 +266,7 @@ print("こんにちは、" + name + "さん！ 今日は" + 2026 + "年です。
 2. 以下のコマンドを実行します:
 
 ```
-python hello.py
+python3 hello.py
 ```
 
 3. 名前を入力した後、`TypeError` が表示されることを確認します
